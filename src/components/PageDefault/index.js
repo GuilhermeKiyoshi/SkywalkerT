@@ -1,7 +1,7 @@
 import React from 'react';
-import Menu from '../Menu';
-import Footer from '../Footer'
 import styled from 'styled-components';
+import Menu from '../Menu';
+import Footer from '../Footer';
 
 const main = styled.main`
     background-color: var(--black);
@@ -13,15 +13,15 @@ const main = styled.main`
 `;
 
 function PageDefault({ children }) {
-    return(
-      <>
-        <Menu />
-            <main>
-                {children}
-            </main>
-        <Footer />
-      </>
-    );
+  return (
+    <>
+      <Menu />
+      <main>
+        {children}
+      </main>
+      <Footer />
+    </>
+  );
 }
 
-    export default PageDefault;
+export default PageDefault;
