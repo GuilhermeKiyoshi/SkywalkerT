@@ -2,43 +2,43 @@
   "categorias": [
     {
       "id": 1,
-      "titulo": "Front End",
+      "titulo": "Tecnologia da Informação",
       "cor": "#6BD1FF",
       "link_extra": {
-        "text": "Formação de Front End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
+       "text": "",
+        "url": ""
       }
     },
     {
       "id": 2,
-      "titulo": "Back End",
+      "titulo": "Animated Shorts Film",
       "cor": "#00C86F",
       "link_extra": {
-        "text": "Cursos de Back End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-programacao"
+        "text": "",
+        "url": ""
       }
     },
     {
       "id": 3,
-      "titulo": "Data Science e Inteligência Artificial",
+      "titulo": "Animações",
       "cor": "#9cd33b",
       "link_extra": {
-        "text": "Cursos de Data Science na Alura",
-        "url": "https://www.alura.com.br/cursos-online-mobile"
+        "text": "",
+        "url": ""
       }
     },
     {
       "id": 4,
-      "titulo": "Filmes",
+      "titulo": "Xadrez",
       "cor": "orange"
     },
     {
       "id": 5,
-      "titulo": "Games",
+      "titulo": "Diversos",
       "cor": "red",
       "link_extra": {
-        "text": "Formação de Jogos na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
+        "text": "",
+        "url": ""
       }
     }
   ],
@@ -46,146 +46,224 @@
     {
       "id": 1,
       "categoriaId": 1,
-      "titulo": "SEO com React",
-      "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+      "titulo": "Não Terceirize suas Decisões! | A Lição MAIS Importante da sua Vida",
+      "url": "https://www.youtube.com/watch?v=D3L8IOncLkg"
     },
     {
       "id": 2,
       "categoriaId": 1,
-      "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
-      "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
+      "titulo": "RANT: Programação NÃO É Fácil",
+      "url": "https://www.youtube.com/watch?v=V7oUDL7E1g4"
     },
     {
       "id": 3,
       "categoriaId": 1,
-      "titulo": "Componentização com VanillaJS #AluraMais",
-      "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+      "titulo": "Entendendo Back-End para Iniciantes em Programação (Parte 1)",
+      "url": "https://www.youtube.com/watch?v=Qjk-cSW-jk4"
     },
     {
       "id": 4,
       "categoriaId": 1,
-      "titulo": "Pare de chutar e aprenda a display: inline #01",
-      "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
+      "titulo": "Usando Git Direito | Limpando seus Commits!",
+      "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
     },
     {
       "id": 5,
       "categoriaId": 1,
-      "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
-      "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
+      "titulo": "Tutorial completo de como programar o Fogo do DOOM",
+      "url": "https://www.youtube.com/watch?v=fxm8cadCqbs"
     },
     {
       "id": 6,
       "categoriaId": 1,
-      "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
-      "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
+      "titulo": "Curso de Java #04 - Primeiro Programa em Java",
+      "url": "https://www.youtube.com/watch?v=ijXXaIYsVx4"
     },
     {
       "id": 7,
       "categoriaId": 1,
-      "titulo": "Novidades do Angular v9",
-      "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
+      "titulo": "8 º Hangout Xtreme Security - A praise for Hackers - Rodrigo Rubira",
+      "url": "https://www.youtube.com/watch?v=x-dfFZzXc7o"
     },
     {
       "id": 8,
-      "categoriaId": 2,
-      "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-      "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
+      "categoriaId": 1,
+      "titulo": "30º Hangout - Pentest, Bug Bounty e muito 0day",
+      "url": "https://www.youtube.com/watch?v=LwGPHcTnWn4"
     },
     {
       "id": 9,
-      "categoriaId": 2,
-      "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
-      "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
+      "categoriaId": 1,
+      "titulo": "Curso Spring Boot aula 01: Iniciando uma aplicação Spring Boot",
+      "url": "https://www.youtube.com/watch?v=OHn1jLHGptw"
     },
     {
       "id": 10,
-      "categoriaId": 2,
+      "categoriaId": 1,
       "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
       "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
     },
     {
       "id": 11,
       "categoriaId": 2,
-      "titulo": "API: Dicionário do Programador",
-      "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
+      "titulo": "One Small Step",
+      "url": "https://www.youtube.com/watch?v=yWd4mzGqQYo"
     },
     {
       "id": 12,
       "categoriaId": 2,
-      "titulo": "Usando Git Direito",
-      "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
+      "titulo": "Pharaoh",
+      "url": "https://www.youtube.com/watch?v=c0yxXmE6w_4"
     },
     {
       "id": 13,
-      "categoriaId": 3,
-      "titulo": "Teste de Turing",
-      "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
+      "categoriaId": 2,
+      "titulo": "Paths of Hate",
+      "url": "https://www.youtube.com/watch?v=cvfOTYf3RH0"
     },
     {
       "id": 14,
-      "categoriaId": 3,
-      "titulo": "O que é Data Science?",
-      "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
+      "categoriaId": 2,
+      "titulo": "Hair Love",
+      "url": "https://www.youtube.com/watch?v=kNw8V_Fkw28"
     },
     {
       "id": 15,
-      "categoriaId": 3,
-      "titulo": "Melhor forma de aprender Python",
-      "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
+      "categoriaId": 2,
+      "titulo": "Broken Wand",
+      "url": "https://www.youtube.com/watch?v=eQ3gf8Kf4ts"
     },
     {
       "id": 16,
-      "categoriaId": 3,
-      "titulo": "Como ingressar no mercado de Data Science?",
-      "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
+      "categoriaId": 2,
+      "titulo": "Tokri (The Basket)",
+      "url": "https://www.youtube.com/watch?v=5qKYrajRNwo"
     },
     {
       "id": 17,
-      "categoriaId": 4,
-      "titulo": "Interestellar",
-      "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
+      "categoriaId": 2,
+      "titulo": "Agent 327 Operation Barbershop",
+      "url": "https://www.youtube.com/watch?v=yHioWLdgnMI"
     },
     {
       "id": 18,
-      "categoriaId": 4,
-      "titulo": "Gattaca",
-      "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
+      "categoriaId": 2,
+      "titulo": "BORROWED TIME",
+      "url": "https://www.youtube.com/watch?v=aGiC9Mg91eQ"
     },
     {
       "id": 19,
-      "categoriaId": 4,
-      "titulo": "A Chegada",
-      "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
+      "categoriaId": 3,
+      "titulo": "StarCrafts - Legacy of the Void Parody",
+      "url": "https://www.youtube.com/watch?v=b4RAucoYZYI"
     },
     {
       "id": 20,
-      "categoriaId": 4,
-      "titulo": "Feitiço do Tempo",
-      "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
+      "categoriaId": 3,
+      "titulo": "StarCrafts Season 1",
+      "url": "https://www.youtube.com/watch?v=BH1yiQ7_--4"
     },
     {
       "id": 21,
-      "categoriaId": 5,
-      "titulo": "Final Fantasy 7",
-      "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
+      "categoriaId": 3,
+      "titulo": "Dota 2 Cinematic Movie Trailers",
+      "url": "https://www.youtube.com/watch?v=pnbWipZJq_k"
     },
     {
       "id": 22,
-      "categoriaId": 5,
-      "titulo": "Assassins Creed Valhalla",
-      "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
+      "categoriaId": 3,
+      "titulo": "Dota 2 Movie More Than A Game",
+      "url": "https://www.youtube.com/watch?v=bUM8TDZ_Ey8"
     },
     {
       "id": 23,
-      "categoriaId": 5,
-      "titulo": "God of War 4",
-      "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
+      "categoriaId": 3,
+      "titulo": "The DOTA 2 Reporter: Season 3 [All Episodes]",
+      "url": "https://www.youtube.com/watch?v=nw0xg2MMnRM"
     },
     {
       "id": 24,
+      "categoriaId": 3,
+      "titulo": "5 REASONS TO PICK MEDUSA -DOTA ANIMATION",
+      "url": "https://www.youtube.com/watch?v=PvG41l_L3kk"
+    },
+    {
+      "id": 25,
+      "categoriaId": 4,
+      "titulo": "O brasileiro que derrotou o campeão mundial de xadrez",
+      "url": "https://www.youtube.com/watch?v=WSnwAxMR51o"
+    },
+    {
+      "id": 26,
+      "categoriaId": 4,
+      "titulo": "Dois conceitos fundamentais pra aprender as aberturas no Xadrez",
+      "url": "https://www.youtube.com/watch?v=4aca7xKaswY"
+    },
+    {
+      "id": 27,
+      "categoriaId": 4,
+      "titulo": "As 3 armadilhas de Bobby Fischer!",
+      "url": "https://www.youtube.com/watch?v=SfD7SGsGx0s"
+    },
+    {
+      "id": 28,
+      "categoriaId": 4,
+      "titulo": "A Mágica Abertura London de Carlsen vs Nepomniachtchi",
+      "url": "https://www.youtube.com/watch?v=KmZGs6V9cd8"
+    },
+    {
+      "id": 29,
+      "categoriaId": 4,
+      "titulo": "Xadrez de segunda à noite",
+      "url": "https://www.youtube.com/watch?v=ibOXdN4Pz14"
+    },
+    {
+      "id": 30,
+      "categoriaId": 4,
+      "titulo": "Como estudar ABERTURA?",
+      "url": "https://www.youtube.com/watch?v=oqbEGZSQoSY"
+    },
+    {
+      "id": 31,
+      "categoriaId": 4,
+      "titulo": "Qual a melhor Defesa contra 1.e4?",
+      "url": "https://www.youtube.com/watch?v=s8awlFy6SAE"
+    },
+    {
+      "id": 32,
       "categoriaId": 5,
-      "titulo": "Resident Evil 8",
-      "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
+      "titulo": "Dicas para DESTRUIR o MID no Dota 2",
+      "url": "https://www.youtube.com/watch?v=Rz0EoGccvFs"
+    },
+    {
+      "id": 33,
+      "categoriaId": 5,
+      "titulo": "MARVEL vs DC",
+      "url": "https://www.youtube.com/watch?v=LGqtS7TpfGs&list=PLA2Gd9vTv5MWbT1N-RVoTO7MHkfjKkYVV&index=16"
+    },
+    {
+      "id": 34,
+      "categoriaId": 5,
+      "titulo": "POR QUE NÓS PRECISAMOS DE MAIS UM CORINGA?",
+      "url": "https://www.youtube.com/watch?v=yJxi9rBStIM"
+    },
+    {
+      "id": 35,
+      "categoriaId": 5,
+      "titulo": "Minha opinião sobre Aquela I.A.",
+      "url": "https://www.youtube.com/watch?v=ABXEs47qToU"
+    },
+    {
+      "id": 36,
+      "categoriaId": 5,
+      "titulo": "DEU A LOUCA NA CHAPEUZINHO! Ep. #04",
+      "url": "https://www.youtube.com/watch?v=et-dAHE2WhM"
+    },
+    {
+      "id": 37,
+      "categoriaId": 5,
+      "titulo": "O ÚLTIMO PROGRAMA DO MUNDO #1: Idoso",
+      "url": "https://www.youtube.com/watch?v=zQX0jNW45AY&list=PLA2Gd9vTv5MUmWkCoUfLh-qeHJqz4rNE3"
     }
   ]
 }
