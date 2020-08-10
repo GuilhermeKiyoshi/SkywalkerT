@@ -1,24 +1,48 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
-import PageDefault from '../../../components/PageDefault';
-import FormField from '../../../components/FormField';
-import Button from '../../../components/Button';
-import useForm from '../../../Hooks';
+import { useHistory } from 'react-router-dom'; // 2
+import PageDefault from '../../../components/PageDefault'; // 3 
+import useForm from '../../../Hooks'; // 4
+import FormField from '../../../components/FormField'; // 5
+import Button from '../../../components/Button'; // 6
+import categoriasRepository from '../../../repositores/categorias';
+import {TableC} from '../style';
 
 function CadastroCategoria() {
+  const history = useHistory();
+  
+  const table = {
+    width: '100%',
+    marginTop: '20px',
+    marginLeft: 'auto',
+    marginRight: 'auto',
+    paddingBottom: '10px',
+    border: '1px solid white'
+  };
+
+  const tableth = {
+    paddingTop: '12px',
+    paddingBottom: '12px',
+    textAlign: 'center',
+    backgroundColor: '#fbd46d',
+    color: 'black',
+
+  };
+
   const valoresIniciais = {
     nome: '',
-    descricao: '',
+    text: '',
     cor: '',
   };
 
-  const { handleChange, values, clearForm } = useForm(valoresIniciais);
+  const { handleChange, values } = useForm(valoresIniciais);
+
   const [categorias, setCategorias] = useState([]);
 
   useEffect(() => {
     const URL_TOP = window.location.hostname.includes('localhost')
       ? 'http://localhost:8080/categorias'
-      : 'https://skywalkerflix.herokuapp.com/categorias';
+      : 'https://hiroflix.herokuapp.com/categorias';
+
     fetch(URL_TOP)
       .then(async (respostaDoServidor) => {
         const resposta = await respostaDoServidor.json();
@@ -28,38 +52,67 @@ function CadastroCategoria() {
       });
   }, []);
 
+  const listC = (
+    <table style={table}>
+      <tbody>
+        <tr>
+          <th style={tableth}>Categorias</th>
+        </tr>
+      </tbody>
+      {categorias.map((categoria) => (
+        <tbody key={`${categoria.titulo}`}>
+          <TableC fieldColor={categoria.cor}>
+            <td style={{ padding: '5px', textAlign: 'center' }}>
+              {categoria.titulo}
+            </td>
+          </TableC>
+        </tbody>
+      ))}
+    </table>
+  );
+
+
+  
   return (
+    
     <PageDefault>
       <h1>
-        Cadastro da categoria:
-        {' '}
-        {values.nome}
+        Cadastro de Categoria:
+        {values.titulo}
       </h1>
 
       <form onSubmit={function handleSubmit(infosDoEvento) {
-        infosDoEvento.preventDefault();
-        setCategorias([
-          ...categorias,
-          values,
-        ]);
+        infosDoEvento.preventDefault()
 
-        clearForm();
+        categoriasRepository
+          .create({
+            titulo: values.titulo,
+            cor: values.cor,
+            text: values.text,
+          })
+          .then(() => {
+            console.log('Cadastrou com sucesso!');
+            history.push('/');
+          })
+
+        setCategorias([...categorias, values])
       }}
+      
       >
 
         <FormField
-          label="Nome da categoria"
+          label="Título da Categoria"
           type="text"
-          name="nome"
-          value={values.nome}
+          name="titulo"
+          value={values.titulo}
           onChange={handleChange}
         />
 
         <FormField
           label="Descrição"
           type="textarea"
-          name="descricao"
-          value={values.descricao}
+          name="text"
+          value={values.text}
           onChange={handleChange}
         />
 
@@ -77,22 +130,21 @@ function CadastroCategoria() {
       </form>
 
       {categorias.length === 0 && (
-        <div>
-          Loading...
+        <div class="loading">
+          {/* Loading... */}
+          <div class="obj"></div>
+          <div class="obj"></div>
+          <div class="obj"></div>
+          <div class="obj"></div>
+          <div class="obj"></div>
+          <div class="obj"></div>
+          <div class="obj"></div>
+          <div class="obj"></div>
         </div>
       )}
+        
+      {listC}
 
-      <ul>
-        {categorias.map((categoria) => (
-          <li key={`${categoria.titulo}`}>
-            {categoria.titulo}
-          </li>
-        ))}
-      </ul>
-
-      <Link to="/">
-        Ir para home
-      </Link>
     </PageDefault>
   );
 }
