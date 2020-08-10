@@ -7,6 +7,8 @@ import Button from '../../../components/Button';
 import videosRepository from '../../../repositores/videos';
 import categoriasRepository from '../../../repositores/categorias';
 
+import { StyledLink, ButtonWrapper }from '../style'
+
 function CadastroVideo() {
   const history = useHistory();
   const [categorias, setCategorias] = useState([]);
@@ -47,7 +49,8 @@ function CadastroVideo() {
           });
       }}
       >
-        <FormField
+
+<FormField
           label="Título do Vídeo"
           name="titulo"
           value={values.titulo}
@@ -69,17 +72,19 @@ function CadastroVideo() {
           suggestions={categoryTitles}
         />
 
-        <Button type="submit">
-          Cadastrar
-        </Button>
+        <ButtonWrapper>
+          <Button type="submit">
+            Cadastrar
+          </Button>
+
+          <StyledLink to="/cadastro/categoria">
+            Cadastrar Categoria
+          </StyledLink>
+        </ButtonWrapper>
       </form>
 
       <br />
       <br />
-
-      <Link to="/cadastro/categoria">
-        Cadastrar Categoria
-      </Link>
     </PageDefault>
   );
 }
