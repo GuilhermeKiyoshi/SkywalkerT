@@ -16,15 +16,16 @@ function CadastroCategoria() {
     marginLeft: 'auto',
     marginRight: 'auto',
     paddingBottom: '10px',
-    border: '1px solid white'
+    border: '1px solid white',
+    color: 'white'
   };
 
   const tableth = {
     paddingTop: '12px',
     paddingBottom: '12px',
     textAlign: 'center',
-    backgroundColor: '#fbd46d',
-    color: 'black',
+    backgroundColor: 'green',
+    color: 'black'
 
   };
 
@@ -71,8 +72,6 @@ function CadastroCategoria() {
     </table>
   );
 
-
-  
   return (
     
     <PageDefault>

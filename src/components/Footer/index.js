@@ -2,7 +2,7 @@ import React from 'react';
 import { FooterBase } from '../Footer/styles';
 import Logo from '../../assets/img/Logo.png';
 import IconLinkedin from '../../assets/img/linkedin.png';
-import IconGithub from '../../assets/img/github.png';
+import IconGithub from '../../assets/img/github.svg';
 
 function Footer() {
   return (
