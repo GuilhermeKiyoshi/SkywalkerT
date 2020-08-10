@@ -14,8 +14,8 @@ function Footer() {
         Guilherme Kiyoshi Mazaro
 
         <p style={{ display: 'flex', justifyContent: 'center' }}>
-            <a target="_blank" href="https://www.linkedin.com/in/luis-mazaro-781260136/"><img alt="Linkedin" style={{ width: '32px', margin: '4px' }} src={IconLinkedin} /></a>
-            <a target="_blank" href="https://github.com/Mazaro-bot"><img alt="Github" style={{ width: '32px', margin: '4px' }} src={IconGithub} /></a>
+            <a target="_blank" href="https://www.linkedin.com/in/guilherme-mazaro-96630a185/"><img alt="Linkedin" style={{ width: '32px', margin: '4px' }} src={IconLinkedin} /></a>
+            <a target="_blank" href="https://github.com/GuilhermeKiyoshi"><img alt="Github" style={{ width: '32px', margin: '4px' }} src={IconGithub} /></a>
         </p>
 
         <p style={{ fontSize: '.6em' }}>
