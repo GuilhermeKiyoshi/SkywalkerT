@@ -1,4 +1,4 @@
-<p align='center'><img width='200' src="./src/assets/img/logo.png"/></p>
+<p align='center'><img width='200' src="./src/assets/img/Logo.png"/></p>
 
 <h1 align='center'>SkywalkerFlix - Imersão React</h1>
 
